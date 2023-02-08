@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B2BPriceAdmin.Database", "B2BPriceAdmin.Database\B2BPriceAdmin.Database.csproj", "{9BB9E0A2-C15B-426F-84EA-5CFD8F67B1B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B2BPriceAdmin.Core", "B2BPriceAdmin.Core\B2BPriceAdmin.Core.csproj", "{C3BB7412-F25A-4869-AB57-E5FF804C69D5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7BA6DCBD-F16D-4FD8-8AC3-035EB64E7CC7} = {7BA6DCBD-F16D-4FD8-8AC3-035EB64E7CC7}
+		{9BB9E0A2-C15B-426F-84EA-5CFD8F67B1B8} = {9BB9E0A2-C15B-426F-84EA-5CFD8F67B1B8}
+		{BA038299-9B5D-4EAB-9A78-D1B178D7089B} = {BA038299-9B5D-4EAB-9A78-D1B178D7089B}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B2BPriceAdmin.DTO", "B2BPriceAdmin.DTO\B2BPriceAdmin.DTO.csproj", "{7BA6DCBD-F16D-4FD8-8AC3-035EB64E7CC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B2BPriceAdmin.Common", "B2BPriceAdmin.Common\B2BPriceAdmin.Common.csproj", "{BA038299-9B5D-4EAB-9A78-D1B178D7089B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B2BPriceAdmin.API", "B2BPriceAdmin.API\B2BPriceAdmin.API.csproj", "{575F3E33-200C-42AE-AC21-AD39141F6B15}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7BA6DCBD-F16D-4FD8-8AC3-035EB64E7CC7} = {7BA6DCBD-F16D-4FD8-8AC3-035EB64E7CC7}
+		{BA038299-9B5D-4EAB-9A78-D1B178D7089B} = {BA038299-9B5D-4EAB-9A78-D1B178D7089B}
+		{C3BB7412-F25A-4869-AB57-E5FF804C69D5} = {C3BB7412-F25A-4869-AB57-E5FF804C69D5}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BB9E0A2-C15B-426F-84EA-5CFD8F67B1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB9E0A2-C15B-426F-84EA-5CFD8F67B1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB9E0A2-C15B-426F-84EA-5CFD8F67B1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB9E0A2-C15B-426F-84EA-5CFD8F67B1B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3BB7412-F25A-4869-AB57-E5FF804C69D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3BB7412-F25A-4869-AB57-E5FF804C69D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3BB7412-F25A-4869-AB57-E5FF804C69D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3BB7412-F25A-4869-AB57-E5FF804C69D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA6DCBD-F16D-4FD8-8AC3-035EB64E7CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA6DCBD-F16D-4FD8-8AC3-035EB64E7CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA6DCBD-F16D-4FD8-8AC3-035EB64E7CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA6DCBD-F16D-4FD8-8AC3-035EB64E7CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA038299-9B5D-4EAB-9A78-D1B178D7089B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA038299-9B5D-4EAB-9A78-D1B178D7089B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA038299-9B5D-4EAB-9A78-D1B178D7089B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA038299-9B5D-4EAB-9A78-D1B178D7089B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575F3E33-200C-42AE-AC21-AD39141F6B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575F3E33-200C-42AE-AC21-AD39141F6B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575F3E33-200C-42AE-AC21-AD39141F6B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575F3E33-200C-42AE-AC21-AD39141F6B15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5E0529E-4E3C-4222-934B-A87874B7680A}
+	EndGlobalSection
+EndGlobal

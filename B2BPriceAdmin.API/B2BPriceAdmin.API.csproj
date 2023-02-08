@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.7" />
+    <PackageReference Include="StackExchange.Exceptional.AspNetCore" Version="2.2.32" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\B2BPriceAdmin.Common\B2BPriceAdmin.Common.csproj" />
+    <ProjectReference Include="..\B2BPriceAdmin.Core\B2BPriceAdmin.Core.csproj" />
+    <ProjectReference Include="..\B2BPriceAdmin.DTO\B2BPriceAdmin.DTO.csproj" />
+  </ItemGroup>
+
+</Project>
